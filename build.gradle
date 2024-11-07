@@ -9,6 +9,7 @@ description 'Aplicacion back de reserva de almuerzos'
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
+
     }
 }
 repositories {
@@ -21,6 +22,7 @@ dependencies {
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 }
 test {
     useJUnitPlatform()
