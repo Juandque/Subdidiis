@@ -25,17 +25,12 @@ public class MenuServicioImpl implements MenuServicio {
     }
 
     @Override
-    public List<ItemListarNegociosDTO> buscarMenusPorFecha(LocalDate busqueda) {
+    public List<ItemListarMenusDTO> buscarMenusPorFecha(LocalDate busqueda) {
         return List.of();
     }
 
     @Override
     public ItemMenuInfoDTO obtenerInformacionMenu(String codigoMenu) throws Exception {
-        return null;
-    }
-
-    @Override
-    public ObtenerMenuDTO obtenerMenu(String codigoMenu) throws Exception {
         return null;
     }
 

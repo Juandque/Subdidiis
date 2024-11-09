@@ -1,8 +1,15 @@
 package co.edu.uniquindio.Subdidiis.Model.Servicios.Implementaciones;
 
+import co.edu.uniquindio.Subdidiis.Model.DTO.DetallerReserva.ActualizarDetalleReservaDTO;
+import co.edu.uniquindio.Subdidiis.Model.DTO.DetallerReserva.AgregarDetalleReservaDTO;
+import co.edu.uniquindio.Subdidiis.Model.DTO.DetallerReserva.CalcularSubtotalDTO;
+import co.edu.uniquindio.Subdidiis.Model.DTO.DetallerReserva.DetalleReservaDTO;
 import co.edu.uniquindio.Subdidiis.Model.Servicios.Interfaces.DetalleReservaServicio;
 
+import java.util.List;
+
 public class DetalleReservaServicioImpl implements DetalleReservaServicio {
+
     @Override
     public double calcularSubtotal(CalcularSubtotalDTO calcularSubtotalDTO) throws Exception {
         return 0;
@@ -30,6 +37,6 @@ public class DetalleReservaServicioImpl implements DetalleReservaServicio {
 
     @Override
     public List<DetalleReservaDTO> obtenerDetallesPorIdReserva(String idReserva) throws Exception {
-        return null;
+        return List.of();
     }
 }

@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotEmpty;
 import java.time.LocalDate;
 import java.util.List;
 
-public record ItemMenuInfoDTO(
+public record ItemListarMenusDTO(
         @NotEmpty List<String> entrada,
         @NotEmpty List<String> proteina,
         @NotEmpty List<String> guarnicion,
