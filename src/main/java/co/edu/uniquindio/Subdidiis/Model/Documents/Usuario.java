@@ -16,7 +16,12 @@ public class Usuario implements Serializable {
     @Id
     @EqualsAndHashCode.Include
     private String codigo;
-    private String username;
+    private String email;
     private String password;
+    private String nombre;
+    private String apellido;
+    private String direccion;
+    private String telefono;
+    private String usuario;
     private ROL rol;
 }

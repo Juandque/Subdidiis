@@ -23,7 +23,7 @@ public class Reserva implements Serializable {
     private LocalDate fechaReserva;
     private List<String> detalleReserva;
     private LocalTime horaReserva;
-    private double PrecioTotal;
+    private double precioTotal;
     private int cantidad;
     private Estado estado;
 }
