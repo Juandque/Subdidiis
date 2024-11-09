@@ -12,10 +12,9 @@ public interface MenuServicio {
 
     void eliminarMenu(String codigoMenu)throws Exception;
 
-    List<ItemListarNegociosDTO> buscarMenusPorFecha(LocalDate busqueda);
+    List<ItemListarMenusDTO> buscarMenusPorFecha(LocalDate busqueda);
 
     ItemMenuInfoDTO obtenerInformacionMenu(String codigoMenu) throws Exception;
 
-    ObtenerMenuDTO obtenerMenu(String codigoMenu) throws  Exception;
     double obtenerCostoAdicion(String adicion) throws Exception;
 }

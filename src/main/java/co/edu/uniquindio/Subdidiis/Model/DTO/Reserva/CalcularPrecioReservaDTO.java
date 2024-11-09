@@ -1,4 +1,12 @@
 package co.edu.uniquindio.Subdidiis.Model.DTO.Reserva;
 
-public record CalcularPrecioReservaDTO() {
+import jakarta.validation.constraints.NotEmpty;
+
+import java.util.List;
+
+public record CalcularPrecioReservaDTO(
+        @NotEmpty List<String> detalleReserva,
+        double precioTotal,
+        int cantidad
+) {
 }
