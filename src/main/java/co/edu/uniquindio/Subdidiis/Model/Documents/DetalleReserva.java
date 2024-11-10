@@ -13,7 +13,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class DetalleReserva {
     @Id
     private String idDetalle;
-    private Menu menu;
+    private String menu;
     private double subtotal;
     private String comentarios;
 }
