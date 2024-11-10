@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotNull;
 
 public record DetalleReservaDTO(
         @NotBlank String idDetalle,
-        @NotNull Menu menu,
+        @NotNull String menu,
         @NotBlank double subtotal,
         @NotBlank String comentarios
 ) {

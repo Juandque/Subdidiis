@@ -22,6 +22,5 @@ public class Usuario implements Serializable {
     private String apellido;
     private String direccion;
     private String telefono;
-    private String usuario;
     private ROL rol;
 }
