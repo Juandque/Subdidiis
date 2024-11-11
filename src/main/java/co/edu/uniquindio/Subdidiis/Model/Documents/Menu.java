@@ -11,7 +11,7 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Document("Menús")
+@Document("menus")
 public class Menu {
         @Id
         private String idMenu;
