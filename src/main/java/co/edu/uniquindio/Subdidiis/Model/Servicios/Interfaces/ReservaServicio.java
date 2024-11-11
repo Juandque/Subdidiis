@@ -24,5 +24,4 @@ public interface ReservaServicio {
 
     void cambiarEstadoReserva(String idReserva, Estado nuevoEstado) throws Exception;
 
-    double calcularPrecioReserva(CalcularPrecioReservaDTO calcularPrecioDTO) throws Exception;
 }

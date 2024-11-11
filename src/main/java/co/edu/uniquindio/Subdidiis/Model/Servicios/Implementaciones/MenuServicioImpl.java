@@ -113,17 +113,14 @@ public class MenuServicioImpl implements MenuServicio {
         return detalleMenuDTO;
     }
 
-    @Override
-    public double obtenerCostoAdicion(String adicion) throws Exception {
-        switch (adicion.toLowerCase()) {
-            case "proteina":
-                return adicionProteina;
-            case "guarnicion":
-                return adicionGuarnicion;
-            case "entrada":
-                return adicionEntrada;
-            default:
-                throw new Exception("No se ha podido encontrar el adicion");
-        }
+    public double obtenerPrecioAdicion(String tipoAdicion) throws Exception {
+        return switch (tipoAdicion) {
+            case "proteina" -> adicionProteina;
+            case "guarnicion" -> adicionGuarnicion;
+            case "entrada" -> adicionEntrada;
+            default -> throw new Exception("Tipo de adición no válida: " + tipoAdicion);
+        };
     }
+
+
 }
