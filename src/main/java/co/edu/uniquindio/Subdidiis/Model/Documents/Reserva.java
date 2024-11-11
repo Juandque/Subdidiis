@@ -15,7 +15,7 @@ import java.util.List;
 @ToString
 @NoArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
-@Document("Reservas")
+@Document("reservas")
 public class Reserva implements Serializable {
     @Id
     private String idReserva;
