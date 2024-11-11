@@ -1,5 +1,7 @@
 package co.edu.uniquindio.Subdidiis.Model.DTO.Reserva;
 
+import co.edu.uniquindio.Subdidiis.Model.DTO.DetallerReserva.AgregarDetalleReservaDTO;
+import co.edu.uniquindio.Subdidiis.Model.Documents.Reserva;
 import co.edu.uniquindio.Subdidiis.Model.Enum.Estado;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
@@ -15,6 +17,7 @@ public record CrearReservaDTO(
         LocalTime horaReserva,
         double precioTotal,
         int cantidad,
-        Estado estado
+        Estado estado,
+        List<AgregarDetalleReservaDTO> detalles
 ) {
 }

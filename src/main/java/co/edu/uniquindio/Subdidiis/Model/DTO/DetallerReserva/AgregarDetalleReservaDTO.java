@@ -4,9 +4,12 @@ import co.edu.uniquindio.Subdidiis.Model.Documents.Menu;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
+import java.util.List;
+
 public record AgregarDetalleReservaDTO(
         @NotNull String menu,
         @NotBlank double subtotal,
-        @NotBlank String comentarios
+        @NotBlank String comentarios,
+        List<String> adiciones
 ) {
 }

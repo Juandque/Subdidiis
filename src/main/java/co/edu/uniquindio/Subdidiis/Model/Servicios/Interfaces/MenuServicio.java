@@ -16,5 +16,5 @@ public interface MenuServicio {
 
     ItemMenuInfoDTO obtenerInformacionMenu(String codigoMenu) throws Exception;
 
-    double obtenerCostoAdicion(String adicion) throws Exception;
+    double obtenerPrecioAdicion(String adicion) throws Exception;
 }
