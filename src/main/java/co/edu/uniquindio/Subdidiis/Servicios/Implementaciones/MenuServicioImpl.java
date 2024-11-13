@@ -69,7 +69,6 @@ public class MenuServicioImpl implements MenuServicio {
     @Override
     public void eliminarMenu(String codigoMenu) throws Exception {
         Optional<Menu> optionalMenu = menuRepo.findById(codigoMenu);
-
         if (optionalMenu.isEmpty()) {
             throw new Exception("El negocioo a eliminar no ha sido encontrado");
         }
@@ -79,7 +78,7 @@ public class MenuServicioImpl implements MenuServicio {
 
     @Override
     public List<ItemListarMenusDTO> buscarMenusPorFecha(LocalDate busqueda) {
-        List<Menu> menusEncontrados = menuRepo.findByFechaDisponibilidadIsLike(busqueda);
+        List<Menu> menusEncontrados = menuRepo.findByFechaDisponibilidadEquals(busqueda);
 
         List<ItemListarMenusDTO> detalleMenusEncontraadosDTOS = new ArrayList<>();
         for (Menu m : menusEncontrados) {
@@ -97,7 +96,7 @@ public class MenuServicioImpl implements MenuServicio {
     @Override
     public ItemMenuInfoDTO obtenerInformacionMenu(String codigoMenu) throws Exception {
         Optional<Menu> optionalMenu = menuRepo.findById(codigoMenu);
-        if (optionalMenu.isEmpty()) {
+        if (optionalMenu.isEmpty() || optionalMenu.get().getIdMenu().isEmpty()) {
             throw new Exception("No se ha podido encontrar el negocio");
         }
         Menu menu = optionalMenu.get();

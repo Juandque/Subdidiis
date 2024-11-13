@@ -5,46 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0295b50-222c-472d-ac18-e7561fbd406d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/DetalleReservaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/ReservaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/UsuarioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/DetallerReserva/ActualizarDetalleReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/DetallerReserva/ActualizarDetalleReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/DetallerReserva/AgregarDetalleReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/DetallerReserva/AgregarDetalleReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/DetallerReserva/DetalleReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/DetallerReserva/DetalleReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/EmailDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/EmailDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/ImagenDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/ImagenDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/MensajeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/MensajeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Menu/ActualizarMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Menu/ActualizarMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Menu/CrearMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Menu/CrearMenuDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Menu/ItemListarMenusDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Menu/ItemListarMenusDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Menu/ItemMenuInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Menu/ItemMenuInfoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Reserva/ActualizarReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/ActualizarReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Reserva/CalcularPrecioReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/CalcularPrecioReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Reserva/CrearReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/CrearReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Reserva/ReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/ReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Usuario/CambiarPasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Usuario/CambiarPasswordDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Usuario/RegistroClienteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Usuario/RegistroClienteDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/DTO/Usuario/SesionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Usuario/SesionDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Documents/DetalleReserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Documents/DetalleReserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Documents/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Documents/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Documents/Reserva.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Documents/Reserva.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/DetalleReservaServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/DetalleReservaServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/EmailServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/EmailServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/EnumServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/EnumServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/ImagenesServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/ImagenesServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/MenuServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/MenuServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/ReservaServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/ReservaServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Implementaciones/UsuarioServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/UsuarioServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/DetalleReservaServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/DetalleReservaServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/EmailServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/EmailServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/EnumServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/EnumServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/ImagenesServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/ImagenesServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/MenuServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/MenuServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/ReservaServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/ReservaServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Model/Servicios/Interfaces/UsuarioServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Interfaces/UsuarioServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/ClienteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/CrearReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/CrearReservaDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Repositorio/MenuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Repositorio/MenuRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/MenuServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/MenuServicioImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/DetalleReservaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/DetalleReservaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/ReservaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/ReservaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/UsuarioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +24,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -96,6 +75,31 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build Subdidiis.executor": "Run",
+    "Gradle.DetalleReservaTest.actualizarDetalleReservaExitoTest.executor": "Run",
+    "Gradle.DetalleReservaTest.agregarDetalleReservaAdicionNoValidaTest.executor": "Run",
+    "Gradle.DetalleReservaTest.agregarDetalleReservaExitoTest.executor": "Run",
+    "Gradle.DetalleReservaTest.agregarDetalleReservaMenuNoEncontradoTest.executor": "Run",
+    "Gradle.DetalleReservaTest.eliminarDetalleReservaExitoTest.executor": "Run",
+    "Gradle.DetalleReservaTest.eliminarDetalleReservaNoEncontradoTest.executor": "Run",
+    "Gradle.DetalleReservaTest.obtenerDetalleReservaPorIdExitoTest.executor": "Run",
+    "Gradle.MenuTest.actualizarMenuCamposIncompletosTest.executor": "Run",
+    "Gradle.MenuTest.actualizarMenuExitoTest.executor": "Run",
+    "Gradle.MenuTest.buscarMenusPorFechaExitoTest.executor": "Run",
+    "Gradle.MenuTest.buscarMenusPorFechaSinResultadosTest.executor": "Run",
+    "Gradle.MenuTest.crearMenuCamposIncompletosTest.executor": "Run",
+    "Gradle.MenuTest.crearMenuExitoTest.executor": "Run",
+    "Gradle.MenuTest.eliminarMenuExitoTest.executor": "Run",
+    "Gradle.MenuTest.eliminarMenuNoEncontradoTest.executor": "Debug",
+    "Gradle.MenuTest.obtenerInformacionMenuExitoTest.executor": "Run",
+    "Gradle.MenuTest.obtenerInformacionMenuNoEncontradoTest.executor": "Run",
+    "Gradle.MenuTest.obtenerPrecioAdicionInvalidoTest.executor": "Run",
+    "Gradle.MenuTest.obtenerPrecioAdicionProteinaTest.executor": "Run",
+    "Gradle.ReservaTest.actualizarReservaExitoTest.executor": "Run",
+    "Gradle.ReservaTest.crearReservaDetalleNoEncontradoTest.executor": "Run",
+    "Gradle.ReservaTest.crearReservaExitoTest.executor": "Run",
+    "Gradle.ReservaTest.eliminarReservaExitoTest.executor": "Run",
+    "Gradle.UsuarioTest.actualizarPasswordExitoTest.executor": "Run",
+    "Gradle.UsuarioTest.registrarClienteFailTest.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -114,7 +118,127 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.ReservaTest.cambiarEstadoReservaExitoTest">
+    <configuration name="ReservaTest.cambiarEstadoReservaExitoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.Subdidiis.test.ReservaTest.cambiarEstadoReservaExitoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaTest.cambiarEstadoReservaNoEncontradaTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.Subdidiis.test.ReservaTest.cambiarEstadoReservaNoEncontradaTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaTest.obtenerReservaPorIdExitoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.Subdidiis.test.ReservaTest.obtenerReservaPorIdExitoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaTest.obtenerReservasPorFechaExitoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.Subdidiis.test.ReservaTest.obtenerReservasPorFechaExitoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ReservaTest.obtenerReservasPorUsuarioExitoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;co.edu.uniquindio.Subdidiis.test.ReservaTest.obtenerReservasPorUsuarioExitoTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="ProyectoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Subdidiis.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="co.edu.uniquindio.Subdidiis.ProyectoApplication" />
@@ -122,6 +246,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ReservaTest.cambiarEstadoReservaExitoTest" />
+        <item itemvalue="Gradle.ReservaTest.cambiarEstadoReservaNoEncontradaTest" />
+        <item itemvalue="Gradle.ReservaTest.obtenerReservasPorFechaExitoTest" />
+        <item itemvalue="Gradle.ReservaTest.obtenerReservasPorUsuarioExitoTest" />
+        <item itemvalue="Gradle.ReservaTest.obtenerReservaPorIdExitoTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -145,6 +278,7 @@
       <workItem from="1731184816722" duration="8825000" />
       <workItem from="1731272392575" duration="5210000" />
       <workItem from="1731361597729" duration="3059000" />
+      <workItem from="1731506258497" duration="6995000" />
     </task>
     <servers />
   </component>

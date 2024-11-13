@@ -11,5 +11,5 @@ import java.util.Optional;
 @Repository
 public interface MenuRepo extends MongoRepository<Menu, String> {
     Optional<Menu> findById(String id);
-    List<Menu> findByFechaDisponibilidadIsLike(LocalDate fechasDisponibilidad);
+    List<Menu> findByFechaDisponibilidadEquals(LocalDate fechasDisponibilidad);
 }

@@ -31,7 +31,7 @@ public class UsuarioTest {
     @Test
     public void registrarClienteFailTest() {
         RegistroClienteDTO registroClienteDto = new RegistroClienteDTO(
-                "correo@example.com", "password123", "Juan", "Pérez", "Calle 123", "123456789");
+                "usuario2@example.com", "password456", "Juan", "Duque", "Calle 12456", "99764323235");
 
         Exception exception = Assertions.assertThrows(Exception.class, () -> {
             usuarioServicio.registrarse(registroClienteDto);
@@ -42,7 +42,7 @@ public class UsuarioTest {
 
     @Test
     public void actualizarPasswordExitoTest() throws Exception {
-        CambiarPasswordDTO cambioPasswordDto = new CambiarPasswordDTO("U001", "newpassword123");
+        CambiarPasswordDTO cambioPasswordDto = new CambiarPasswordDTO("6734be84914b8f27da13f6fe", "newpassword123");
 
         usuarioServicio.actualizarPassword(cambioPasswordDto);
 
