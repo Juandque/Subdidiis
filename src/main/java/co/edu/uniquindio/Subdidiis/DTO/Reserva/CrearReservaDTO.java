@@ -12,7 +12,6 @@ import java.util.List;
 public record CrearReservaDTO(
         @NotBlank String usuario,
         LocalDate fechaReserva,
-        @NotEmpty List<String> detalleReserva,
         LocalTime horaReserva,
         double precioTotal,
         int cantidad,
