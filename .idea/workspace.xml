@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0295b50-222c-472d-ac18-e7561fbd406d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Controladores/DetalleReservaControlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Controladores/EnumControlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Controladores/MenuControlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Controladores/ReservaControlador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Controladores/UsuarioControlador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/CrearReservaDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/DTO/Reserva/CrearReservaDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Repositorio/MenuRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Repositorio/MenuRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/MenuServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/MenuServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/DetalleReservaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/DetalleReservaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/MenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/ReservaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/ReservaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/UsuarioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/edu/uniquindio/Subdidiis/test/UsuarioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/EnumServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/edu/uniquindio/Subdidiis/Servicios/Implementaciones/EnumServicioImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,52 +70,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Subdidiis.executor": "Run",
-    "Gradle.DetalleReservaTest.actualizarDetalleReservaExitoTest.executor": "Run",
-    "Gradle.DetalleReservaTest.agregarDetalleReservaAdicionNoValidaTest.executor": "Run",
-    "Gradle.DetalleReservaTest.agregarDetalleReservaExitoTest.executor": "Run",
-    "Gradle.DetalleReservaTest.agregarDetalleReservaMenuNoEncontradoTest.executor": "Run",
-    "Gradle.DetalleReservaTest.eliminarDetalleReservaExitoTest.executor": "Run",
-    "Gradle.DetalleReservaTest.eliminarDetalleReservaNoEncontradoTest.executor": "Run",
-    "Gradle.DetalleReservaTest.obtenerDetalleReservaPorIdExitoTest.executor": "Run",
-    "Gradle.MenuTest.actualizarMenuCamposIncompletosTest.executor": "Run",
-    "Gradle.MenuTest.actualizarMenuExitoTest.executor": "Run",
-    "Gradle.MenuTest.buscarMenusPorFechaExitoTest.executor": "Run",
-    "Gradle.MenuTest.buscarMenusPorFechaSinResultadosTest.executor": "Run",
-    "Gradle.MenuTest.crearMenuCamposIncompletosTest.executor": "Run",
-    "Gradle.MenuTest.crearMenuExitoTest.executor": "Run",
-    "Gradle.MenuTest.eliminarMenuExitoTest.executor": "Run",
-    "Gradle.MenuTest.eliminarMenuNoEncontradoTest.executor": "Debug",
-    "Gradle.MenuTest.obtenerInformacionMenuExitoTest.executor": "Run",
-    "Gradle.MenuTest.obtenerInformacionMenuNoEncontradoTest.executor": "Run",
-    "Gradle.MenuTest.obtenerPrecioAdicionInvalidoTest.executor": "Run",
-    "Gradle.MenuTest.obtenerPrecioAdicionProteinaTest.executor": "Run",
-    "Gradle.ReservaTest.actualizarReservaExitoTest.executor": "Run",
-    "Gradle.ReservaTest.crearReservaDetalleNoEncontradoTest.executor": "Run",
-    "Gradle.ReservaTest.crearReservaExitoTest.executor": "Run",
-    "Gradle.ReservaTest.eliminarReservaExitoTest.executor": "Run",
-    "Gradle.UsuarioTest.actualizarPasswordExitoTest.executor": "Run",
-    "Gradle.UsuarioTest.registrarClienteFailTest.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ProyectoApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Juan/Develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "720fee630c5c13fdb7397147c5cff99d",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Subdidiis.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.actualizarDetalleReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.agregarDetalleReservaAdicionNoValidaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.agregarDetalleReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.agregarDetalleReservaMenuNoEncontradoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.eliminarDetalleReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.eliminarDetalleReservaNoEncontradoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.DetalleReservaTest.obtenerDetalleReservaPorIdExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.actualizarMenuCamposIncompletosTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.actualizarMenuExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.buscarMenusPorFechaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.buscarMenusPorFechaSinResultadosTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.crearMenuCamposIncompletosTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.crearMenuExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.eliminarMenuExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.eliminarMenuNoEncontradoTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MenuTest.obtenerInformacionMenuExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.obtenerInformacionMenuNoEncontradoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.obtenerPrecioAdicionInvalidoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MenuTest.obtenerPrecioAdicionProteinaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.actualizarReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.cambiarEstadoReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.cambiarEstadoReservaNoEncontradaTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.crearReservaDetalleNoEncontradoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.crearReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.eliminarReservaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.obtenerReservaPorIdExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.obtenerReservasPorFechaExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.ReservaTest.obtenerReservasPorUsuarioExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsuarioTest.actualizarPasswordExitoTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.UsuarioTest.registrarClienteFailTest.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ProyectoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Juan/Develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Juan/Desktop/Proyecto_Bases/Proyecto-Bases&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;720fee630c5c13fdb7397147c5cff99d&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.ReservaTest.cambiarEstadoReservaExitoTest">
     <configuration name="ReservaTest.cambiarEstadoReservaExitoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -278,7 +282,9 @@
       <workItem from="1731184816722" duration="8825000" />
       <workItem from="1731272392575" duration="5210000" />
       <workItem from="1731361597729" duration="3059000" />
-      <workItem from="1731506258497" duration="6995000" />
+      <workItem from="1731506258497" duration="7413000" />
+      <workItem from="1731525609475" duration="671000" />
+      <workItem from="1731539323824" duration="2333000" />
     </task>
     <servers />
   </component>

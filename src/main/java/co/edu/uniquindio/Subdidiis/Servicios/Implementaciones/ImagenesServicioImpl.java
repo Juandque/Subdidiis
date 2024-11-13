@@ -3,6 +3,8 @@ package co.edu.uniquindio.Subdidiis.Servicios.Implementaciones;
 import co.edu.uniquindio.Subdidiis.Servicios.Interfaces.ImagenesServicio;
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
@@ -10,7 +12,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-
+@Service
+@RequiredArgsConstructor
 public class ImagenesServicioImpl implements ImagenesServicio {
     private final Cloudinary cloudinary;
     public ImagenesServicioImpl(){
